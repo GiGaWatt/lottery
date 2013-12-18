@@ -10,6 +10,7 @@
 		BA830A3F185BBF7700DE28A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA830A3E185BBF7700DE28A4 /* Foundation.framework */; };
 		BA830A42185BBF7700DE28A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA830A41185BBF7700DE28A4 /* main.m */; };
 		BA830A46185BBF7700DE28A4 /* lottery.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA830A45185BBF7700DE28A4 /* lottery.1 */; };
+		BA830A98185E817400DE28A4 /* lotteryEnery.m in Sources */ = {isa = PBXBuildFile; fileRef = BA830A97185E817400DE28A4 /* lotteryEnery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		BA830A41185BBF7700DE28A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA830A44185BBF7700DE28A4 /* lottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lottery-Prefix.pch"; sourceTree = "<group>"; };
 		BA830A45185BBF7700DE28A4 /* lottery.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = lottery.1; sourceTree = "<group>"; };
+		BA830A96185E817400DE28A4 /* lotteryEnery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lotteryEnery.h; sourceTree = "<group>"; };
+		BA830A97185E817400DE28A4 /* lotteryEnery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lotteryEnery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		BA830A32185BBF7700DE28A4 = {
 			isa = PBXGroup;
 			children = (
+				BA830A96185E817400DE28A4 /* lotteryEnery.h */,
+				BA830A97185E817400DE28A4 /* lotteryEnery.m */,
 				BA830A40185BBF7700DE28A4 /* lottery */,
 				BA830A3D185BBF7700DE28A4 /* Frameworks */,
 				BA830A3C185BBF7700DE28A4 /* Products */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA830A42185BBF7700DE28A4 /* main.m in Sources */,
+				BA830A98185E817400DE28A4 /* lotteryEnery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +257,7 @@
 				BA830A4B185BBF7700DE28A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
